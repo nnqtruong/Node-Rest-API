@@ -1,11 +1,7 @@
 const mongoose = require("mongoose")
 
-<<<<<<< HEAD
 const UserSchema = new mongoose.Schema(
     {
-=======
-const UserSchema = new mongoose.Schema({
->>>>>>> d1eaae9 (Remove node_modules from repository)
     username:{
         type:String,
         require: true,
@@ -17,7 +13,6 @@ const UserSchema = new mongoose.Schema({
         type:String,
         required:true,
         max:50,
-<<<<<<< HEAD
         unique: true,
     },
     password:{
@@ -50,9 +45,3 @@ const UserSchema = new mongoose.Schema({
 );
 
 module.exports = mongoose.model("User", UserSchema);
-=======
-        unique:true,
-        
-    }
-})
->>>>>>> d1eaae9 (Remove node_modules from repository)

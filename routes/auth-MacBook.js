@@ -1,5 +1,4 @@
 const router = require("express").Router();
-<<<<<<< HEAD
 const User = require("../models/User");
 
 //REGISTER
@@ -24,11 +23,3 @@ router.post ("/register", async (req,res)=>{
 });
 
 module.exports = router;
-=======
-
-router.get("/",(req,res)=>{
-    res.send("Hey it is auth route")
-})
-
-module.exports = router
->>>>>>> d1eaae9 (Remove node_modules from repository)

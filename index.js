@@ -29,6 +29,7 @@ app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 
 
+<<<<<<< HEAD
 app.get("/",(req,res)=>{
     res.send("Welcome to homepage")
 })
@@ -36,6 +37,15 @@ app.get("/",(req,res)=>{
 app.get("/users",(req,res)=>{
     res.send("Welcome to user page")
 })
+=======
+// app.get("/",(req,res)=>{
+//     res.send("Welcome to homepage")
+// })
+
+// app.get("/users",(req,res)=>{
+//     res.send("Welcome to user page")
+// })
+>>>>>>> d1eaae9 (Remove node_modules from repository)
 
 app.listen(8800,()=>{
     console.log("Backend server is running!")
